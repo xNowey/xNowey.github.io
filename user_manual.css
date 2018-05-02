@@ -1,0 +1,37 @@
+ul              /* Hvordan selve navigasjonsbaren skal se ut */
+{
+    list-style-type: none;
+    padding: 0; 
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a            /*Hvordan skal teksten inne i navigasjonsbaren se ut? */
+{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none; 
+}
+li a:hover          /*Hvordan ser knappen ut når du holder musen over den? */
+{
+    background-color: darkgrey;
+    color: white;
+}
+li.selected a
+{
+    background-color: gold;
+}
+iframe              /* Bredde og høyde på iframene */
+{
+    width: 800px;
+    height: 500px;
+}
+body                    /* Bakgrunnsfarge */
+{
+    background-color: lightcoral;
+}
+p           /* Tekstfarge og tekststørrelse */
+{
+    color: white;
+    font-size: 20px;
+}
